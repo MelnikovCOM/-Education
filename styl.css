@@ -1,3 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
 body {
   font-family: sans-serif;
 }
@@ -6,9 +14,13 @@ body {
   line-height: 26px;
   color: #1f3f68;
 }
+.text-main {
+  width: 425px;
+}
 .main {
   font-size: 64px;
   color: #1f3f68;
+  width: 510px;
 }
 .second {
   font-weight: 500;
@@ -19,13 +31,15 @@ body {
   font-size: 36px;
   text-align: center;
 }
+.third-3 {
+  width: 340px;
+}
 .fourth {
   font-size: 20px;
   line-height: 30px;
   color: #1f3f68;
 }
 .fifth {
-  border: 1px solid #356ead;
   box-sizing: border-box;
   border-radius: 10px;
   opacity: 0.4;
@@ -41,113 +55,117 @@ body {
   color: #ffffff;
   text-transform: uppercase;
 }
-.site {
-  border: 4px solid red;
-}
-.site_center {
-  border: 4px solid purple;
+/*.site {
+}*/
+/*.site_center {
   margin-left: 150px;
   margin-right: 150px;
-}
+}*/
 .site__menu {
-  border: 3px solid green;
   padding: 10px;
   margin-top: 20px;
   box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
 }
 .header {
-  border: 3px solid turquoise;
+  margin-top: 40px;
   width: 50%;
-  height: 350px;
+  height: 200px;
   margin-bottom: 200px;
   box-sizing: border-box;
 }
 .info {
-  border: 4px solid purple;
   margin-left: 154px;
   margin-right: 154px;
   margin-top: 40px;
 }
 .info_a {
-  border: 3px solid green;
-  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
 }
 .info_b {
-  border: 3px solid rgb(214, 6, 186);
   margin-top: 20px;
   margin-bottom: 20px;
-  width: 350px;
+  width: 359px;
+  height: 400px;
+}
+.info_b2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 359px;
+  height: 400px;
+}
+.info_b3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 359px;
   height: 400px;
 }
 .our_info {
-  border: 4px solid rgb(173, 15, 15);
-  margin-left: 154px;
+  /*margin-left: 154px;
   margin-right: 154px;
   margin-top: 10px;
-  padding: 16px;
-  box-sizing: border-box;
+  padding: 16px;*/
+  /*box-sizing: border-box;*/
   text-align: center;
+  width: 495px;
+  margin: 0 auto;
 }
 .info_bottom {
-  border: 5px solid red;
   margin-top: 20px;
   background: rgb(4, 123, 192);
 }
 .info_bottom_up {
-  border: 4px solid rgb(250, 241, 123);
   margin-left: 150px;
   margin-right: 150px;
 }
 .info_bottom_upp {
-  border: 3px solid rgb(233, 136, 241);
   margin-top: 40px;
   margin-bottom: 20px;
   width: 450px;
 }
 .info_link {
-  border: 4px solid rgb(134, 240, 120);
   margin-left: 150px;
   margin-right: 150px;
 }
+.info_link-1 {
+  display: flex;
+  justify-content: space-between;
+}
 .info_law {
-  border: 3px solid #ccc;
   margin-bottom: 40px;
 }
 .contact_us {
-  border: 4px solid rgb(21, 165, 2);
   text-align: center;
   background: rgb(4, 123, 192);
 }
 .contact_centr {
-  border: 3px solid purple;
   margin-left: 150px;
   margin-right: 150px;
   margin-top: 40px;
   margin-bottom: 40px;
 }
 .contact_centr_up {
-  border: 3px solid rgb(164, 223, 4);
   margin-top: 20px;
   margin-bottom: 20px;
   margin-left: 20px;
   margin-right: 20px;
+  display: flex;
+  justify-content: space-between;
 }
 .contact_sv {
-  border: 3px solid rgb(240, 51, 51);
   margin-top: 10px;
   margin-bottom: 20px;
   width: 350px;
 }
 .contact_message {
-  border: 3px solid rgb(38, 5, 223);
   margin-bottom: 20px;
   width: 350px;
 }
-.map_contact {
-  border: 3px solid rgb(155, 91, 172);
-}
+/*.map_contact {
+}*/
 .map_style {
-  border: 3px solid rgb(27, 245, 38);
   margin: 0 auto;
-  width: 659px;
+  width: 100%;
 }
